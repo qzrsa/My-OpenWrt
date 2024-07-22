@@ -1,4 +1,4 @@
-name: X86_64 My OpenWrt
+name: X86_64 MyOpenWrt
 
 on:
   workflow_dispatch:
