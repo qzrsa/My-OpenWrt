@@ -31,7 +31,7 @@
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/qzrsa/OpenWrt/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/OpenWrt-X86_64位-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/X86_64-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/qzrsa/MyOpenWrt/blob/main/.github/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/qzrsa/MyOpenWrt/releases/tag/X86_64) |
+| [![](https://img.shields.io/badge/OpenWrt-X86_64位-32C955.svg?logo=openwrt)](https://github.com/qzrsa/OpenWrt/blob/main/.github/workflows/X86_64-OpenWrt.yml) | [![](https://github.com/qzrsa/OpenWrt/actions/workflows/X86_64-OpenWrt.yml)](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/qzrsa/MyOpenWrt/blob/main/.github/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/qzrsa/MyOpenWrt/releases/tag/X86_64) |
 
 
 ## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
@@ -54,8 +54,6 @@
 　├── 实时信息<br/>
 　├── 实时监控<br/>
 　├── 在线用户<br/>
-　├── WireGuard 状态<br/>
-　├── 负载均衡<br/>
 　└── 释放内存
 </details>
 <details>
@@ -79,35 +77,9 @@
 <details>
 <summary><b>├── 服务</b></summary>
 　├── PassWall<br/>
-　├── PassWall2<br/>
-　├── Hello World<br/>
-　├── iKoolProxy 滤广告<br/>
-　├── V2ray 服务器<br/>
-　├── 广告屏蔽大师 Plus+<br/>
-　├── ShadowSocksR Plus+<br/>
 　├── AdGuard Home<br/>
-　├── 应用过滤<br/>
-　├── MosDNS<br/>
-　├── 全能推送<br/>
-　├── 微信推送<br/>
-　├── 上网时间控制<br/>
-　├── 解锁网易云灰色歌曲<br/>
-　├── OpenClash<br/>
 　├── 动态 DNS<br/>
-　├── MultiSD_Lite<br/>
-　├── SmartDNS<br/>
-　├── 网络唤醒<br/>
-　├── 迅雷快鸟<br/>
-　├── Frps<br/>
-　├── UU游戏加速器<br/>
 　├── UPnP<br/>
-　├── KMS 服务器<br/>
-　├── AirPlay 2 音频接收<br/>
-　├── udpxy<br/>
-　├── Nps 内网穿透<br/>
-　├── uHTTPd<br/>
-　├── Frp 内网穿透<br/>
-　└── MWAN3 分流助手
 </details>
 <details>
 <summary><b>├── Docker</b></summary>
@@ -121,28 +93,12 @@
 </details>
 <details>
 <summary><b>├── 网络存储</b></summary>
-　├── 文件浏览器<br/>
-　├── 可道云<br/>
-　├── NFS 管理<br/>
-　├── 微力同步<br/>
 　├── Alist 文件列表<br/>
-　├── qBittorrent<br/>
-　├── USB 打印服务器<br/>
-　├── 硬盘休眠<br/>
 　├── 挂载 SMB 网络共享<br/>
 　├── 网络共享<br/>
-　├── FTP 服务器<br/>
-　├── Rclone<br/>
-　├── Aria2 配置<br/>
-　├── miniDLNA<br/>
-　└── Transmission
 </details>
 <details>
 <summary><b>├── VPN</b></summary>
-　├── N2N v2 VPN<br/>
-　├── SoftEther VPN 服务器<br/>
-　├── OpenVPN 服务器<br/>
-　├── PPTP VPN 服务器<br/>
 　├── IPSec VPN 服务器<br/>
 　└── ZeroTier
 </details>
@@ -158,8 +114,6 @@
 　├── Socat<br/>
 　├── SQM QoS<br/>
 　├── 网速控制<br/>
-　├── 多线多拨<br/>
-　├── 负载均衡<br/>
 　└── Turbo ACC 网络加速
 </details>
 <details>
