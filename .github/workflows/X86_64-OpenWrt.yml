@@ -6,7 +6,7 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/qzrsa/lede
   REPO_BRANCH: master
   CONFIG_FILE: configs/x86_64.config
   DIY_SCRIPT: diy-script.sh
@@ -60,7 +60,7 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
         echo "OPENWRT_PATH=$PWD" >> $GITHUB_ENV
-        COMMIT_AUTHOR=$(git show -s --date=short --format="作者: QZRS")
+        COMMIT_AUTHOR=$(git show -s --date=short --format="作者: %an")
         echo "COMMIT_AUTHOR=$COMMIT_AUTHOR" >> $GITHUB_ENV
         COMMIT_DATE=$(git show -s --date=short --format="时间: %ci")
         echo "COMMIT_DATE=$COMMIT_DATE" >> $GITHUB_ENV
