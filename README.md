@@ -1,5 +1,5 @@
 <div align="center">
-<img width="768" src="https://github.com/qzrsa/OpenWRT/blob/main/images/openwrt.png?raw=true"/>
+<img width="768" src="https://github.com/qzrsa/MyOpenWrt/blob/main/images/openwrt.png?raw=true"/>
 <h1>OpenWrt — 自用固件云编译</h1>
 
 
