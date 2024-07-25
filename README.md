@@ -75,10 +75,10 @@
 　├── PassWall<br/>
 　├── AdGuard Home<br/>
 　├── 动态 DNS<br/>
-　├──网络唤醒<br/>
+　├── 网络唤醒<br/>
 　├── UPnP<br/>
 　├── KMS服务器<br/>   　
-  ├── Docker CE 容器
+　├── Docker CE 容器
 </details>
 <details>
 <summary><b>├── Docker</b></summary>
@@ -93,7 +93,7 @@
 <details>
 <summary><b>├── 网络存储</b></summary>
 　├── Alist 文件列表<br/>
-　├── 网络共享
+　└── 网络共享
 </details>
 <details>
 <summary><b>├── VPN</b></summary>
