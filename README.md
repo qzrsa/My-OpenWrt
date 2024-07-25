@@ -53,7 +53,6 @@
 　├── 实时信息<br/>
 　├── 实时监控<br/>
 　├── 在线用户<br/>
-　└── 释放内存
 </details>
 <details>
 <summary><b>├── 系统</b></summary>
@@ -66,19 +65,20 @@
 　├── 挂载点<br/>
 　├── 磁盘管理<br/>
 　├── 备份/升级<br/>
-　├── 自定义命令<br/>
 　├── 定时重启<br/>
 　├── 文件传输<br/>
 　├── Argon 主题设置<br/>
 　├── 重启<br/>
-　└── 关机
 </details>
 <details>
 <summary><b>├── 服务</b></summary>
 　├── PassWall<br/>
 　├── AdGuard Home<br/>
 　├── 动态 DNS<br/>
+  ├── 网络唤醒<br/>
 　├── UPnP<br/>
+　├── KMS服务器<br/>   　
+  ├── Docker CE 容器<br/>
 </details>
 <details>
 <summary><b>├── Docker</b></summary>
@@ -93,7 +93,6 @@
 <details>
 <summary><b>├── 网络存储</b></summary>
 　├── Alist 文件列表<br/>
-　├── 挂载 SMB 网络共享<br/>
 　├── 网络共享<br/>
 </details>
 <details>
@@ -110,9 +109,6 @@
 　├── 静态路由<br/>
 　├── 防火墙<br/>
 　├── 诊断<br/>
-　├── Socat<br/>
-　├── SQM QoS<br/>
-　├── 网速控制<br/>
 　└── Turbo ACC 网络加速
 </details>
 <details>
@@ -121,7 +117,7 @@
 　├── 配置<br/>
 　├── 备份<br/>
 　├── 网速监控<br/>
-　└── 实时流量监测
+　└── 用量
 </details>
 　└── <b>退出</b>
 </details>
