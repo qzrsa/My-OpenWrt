@@ -1,4 +1,4 @@
-name: X86_64
+name: X86_64-5.15
 
 on:
   workflow_dispatch:
