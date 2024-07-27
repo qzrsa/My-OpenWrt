@@ -48,6 +48,9 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages/tree/patches-xray-core-1.8.21 package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 
+# MosDNS
+git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+
 # Gowebdav
 git clone --depth=1 https://github.com/qzrsa/openwrt-packages package/luci-app-gowebdav
 
