@@ -14,7 +14,6 @@ sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
-
 # 移除要替换的包
 rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
@@ -47,6 +46,9 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 # 科学上网插件
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages/tree/patches-xray-core-1.8.21 package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+
+# Gowebdav
+git clone --depth=1 https://github.com/qzrsa/openwrt-packages package/luci-app-gowebdav
 
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
