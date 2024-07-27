@@ -69,8 +69,12 @@ jobs:
 
     - name: Generate Variables
       run: |
+        echo "Checking configuration file..."
+        ls -l $CONFIG_FILE
+        echo "Copying configuration file to OpenWrt path..."
         cp $CONFIG_FILE $OPENWRT_PATH/.config
         cd $OPENWRT_PATH
+        echo "Running make defconfig..."
         make defconfig > /dev/null 2>&1
         SOURCE_REPO="$(echo $REPO_URL | awk -F '/' '{print $(NF)}')"
         echo "SOURCE_REPO=$SOURCE_REPO" >> $GITHUB_ENV
