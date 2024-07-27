@@ -1,4 +1,4 @@
-name: X86_64-5.15
+name: X86-64-5.15
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: configs/x86_64.config
+  CONFIG_FILE: configs/x86-64.config
   DIY_SCRIPT: diy-script-5.15.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
