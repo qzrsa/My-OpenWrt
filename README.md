@@ -17,13 +17,15 @@
 
 
 ## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
-1. 固件每天定时自动编译，以确保获得最新体验
+1. 固件 x86-64-new 每天定时自动编译，以确保获得最新体验
 2. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
 3. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-4. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
-5. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
+4. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
 
 
+## 固件版本 [![](https://img.shields.io/badge/-本项目版本-FFFFFF.svg)](#固件版本-)
+- x86-64-new     内核版本为最新版
+- x86-64-stable  内核版本为5.15版本。
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/qzrsa/OpenWrt/releases) 即可跳转到该设备固件下载页面
