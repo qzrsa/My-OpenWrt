@@ -1,4 +1,4 @@
-name: X86-64-stable
+name: x86-64-stable-simplify
 
 on:
   workflow_dispatch:
