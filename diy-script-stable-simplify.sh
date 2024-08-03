@@ -25,12 +25,6 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
-#更新go语言版本
-git clone --depth=1 https://github.com/kenzok8/golang feeds/packages/lang/golang
-
-# 科学上网插件
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages/tree/patches-xray-core-1.8.21 package/openwrt-passwall
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
@@ -57,9 +51,6 @@ find package/*/ -maxdepth 2 -path "*/Makefile" | xargs -i sed -i 's/PKG_SOURCE_U
 
 # 取消主题默认设置
 find package/luci-theme-*/* -type f -name '*luci-theme-*' -print -exec sed -i '/set luci.main.mediaurlbase/d' {} \;
-
-# 修改内核版本为 5.15
-sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=5.15/' target/linux/x86/Makefile
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
