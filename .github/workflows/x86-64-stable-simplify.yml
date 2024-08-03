@@ -6,8 +6,8 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: configs/x86-64-stable-simplify.config
-  DIY_SCRIPT: diy-script-stable-simplify.sh
+  CONFIG_FILE: configs/x86-64-new-simplify.config
+  DIY_SCRIPT: diy-script-new-simplify.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
