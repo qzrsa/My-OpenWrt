@@ -163,7 +163,7 @@ jobs:
       with:
         name: R${{ env.DATE }} for ${{ env.FIRMWARE_TAG }}-stable-simplify
         allowUpdates: true
-        tag: ${{ env.FIRMWARE_TAG }}-${{ env.FILE_DATE }}
+        tag: ${{ env.FIRMWARE_TAG }}-${{ env.FILE_DATE }}-stable-simplify
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
         body: |
