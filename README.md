@@ -25,7 +25,7 @@
 
 ## 固件版本 [![](https://img.shields.io/badge/-本项目版本-FFFFFF.svg)](#固件版本-)
 - x86-64-new              内核版本为最新版,每天由GitHub Actions自动更新。
-- x86-64-new-simplify     内核版本为最新版，精简版,插件需要自己安装。
+- x86-64-new-simplify     内核版本为最新版,精简版,只有一个主题。插件需要自己安装。
 - x86-64-stable           内核版本为5.15版本。自用，不定期更新。
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/qzrsa/OpenWrt/releases) 即可跳转到该设备固件下载页面
