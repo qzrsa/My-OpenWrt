@@ -62,6 +62,8 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 # Alist
 git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
+# 更改 Argon 主题背景
+cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 # 在线用户
 git_sparse_clone main https://github.com/haiibo/packages luci-app-onliner
