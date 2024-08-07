@@ -119,10 +119,9 @@ jobs:
       id: compile
       run: |
         cd $OPENWRT_PATH
-        # 创建 Docker 配置文件目录
+        # 将 daemon.json 文件复制到 files/etc/docker 目录
         mkdir -p files/etc/docker
-        # 写入 daemon.json 配置文件
-        echo '{ "iptables": true }' > files/etc/docker/daemon.json
+        cp $GITHUB_WORKSPACE/docker/patches/daemon.json files/etc/docker/daemon.json
         # 继续其他操作
         mkdir -p files/etc/uci-defaults
         cp $GITHUB_WORKSPACE/scripts/init-settings.sh files/etc/uci-defaults/99-init-settings
@@ -132,6 +131,7 @@ jobs:
         echo "DATE=$(date +"%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
         echo "FILE_DATE=$(date +"%Y.%m.%d")" >> $GITHUB_ENV
         echo "COMMIT_AUTHOR=作者:丶曲終人散ゞ" >> $GITHUB_ENV
+
 
 
         
